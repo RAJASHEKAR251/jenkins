@@ -1,7 +1,6 @@
 ---
 - hosts: all
-  become: yes
-  tasks:
+- jenkins_job:    
     name: mypipeln
     password: password
     state: absent

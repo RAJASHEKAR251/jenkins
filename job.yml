@@ -1,5 +1,4 @@
 ---
-- hosts: all
 - jenkins_job:    
     name: mypipeln
     password: password

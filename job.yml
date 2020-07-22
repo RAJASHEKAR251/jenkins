@@ -2,7 +2,7 @@
 - hosts: 172.31.53.54
   become: yes
   tasks: 
-  - jenkins_job:
+- jenkins_job:
     name: mypipeln
     password: password
     state: absent

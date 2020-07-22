@@ -1,5 +1,5 @@
 ---
-- hosts: 172.31.53.54
+- hosts: all
   become: yes
 - jenkins_job:
     name: mypipeln

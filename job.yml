@@ -1,4 +1,6 @@
-- jenkins_job:    
+---
+- hosts: all  
+- job:    
     name: mypipeln
     password: password
     state: absent

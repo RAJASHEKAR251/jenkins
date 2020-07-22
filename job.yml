@@ -1,0 +1,10 @@
+---
+- hosts: 172.31.53.54
+  become: yes
+  tasks: 
+  - jenkins_job:
+    name: mypipeln
+    password: password
+    state: absent
+    url: http://100.25.136.174:8080
+    user: admin 

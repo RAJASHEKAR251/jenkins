@@ -2,7 +2,6 @@
 - hosts: all
   become: yes
   tasks:
-  python-jenkins:
   - jenkins_job:    
       name: mypipeln
       password: password

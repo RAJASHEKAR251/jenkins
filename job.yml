@@ -1,6 +1,11 @@
-- job:    
-    name: mypipeln
-    password: password
-    state: absent
-    url: http://100.25.136.174:8080
-    user: admin 
+---
+- hosts: all
+  become: yes
+  tasks:
+  python-jenkins:
+  - jenkins_job:    
+      name: mypipeln
+      password: password
+      state: absent
+      url: http://100.25.136.174:8080
+      user: admin 

@@ -3,8 +3,8 @@
   become: yes
   tasks:
   - jenkins_job:    
-      name: mypipeln
-      password: password
+      name: develop
+      password: raj
       state: absent
-      url: http://34.203.38.139:8080
-      user: admin 
+      url: http://54.160.72.194:8080/
+      user: raj

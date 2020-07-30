@@ -3,7 +3,7 @@
   become: yes
   tasks:
   - jenkins_job:
-      config: "{{ lookup('file', 'templates/test.xml') }}"
+      config: "{{ lookup('url', 'https://github.com/RAJASHEKAR251/raviLogin/blob/master/pom.xml') }}"
       name: test
       password: raj
       url: http://34.224.6.141:8080/

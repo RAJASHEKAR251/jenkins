@@ -3,7 +3,7 @@
   become: yes
   tasks:
   - jenkins_job:
-    name: test
-    password: raj
-    url: http://34.224.6.141:8080/
-    user: raj
+      name: test
+      password: raj
+      url: http://34.224.6.141:8080/
+      user: raj
